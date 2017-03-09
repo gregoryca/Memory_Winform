@@ -25,10 +25,10 @@ namespace WindowsFormApplication1
             BordenAanmaken();
         }
 
-        private int Rol(int begin, int eind)
+        private int RandomRange(int begin, int eind)
         {
-            Random steen = new Random();
-            int randomGetal = steen.Next(begin, eind);
+            Random r = new Random();
+            int randomGetal = r.Next(begin, eind);
             return randomGetal;
         }
 
@@ -36,9 +36,9 @@ namespace WindowsFormApplication1
         {
             for (int i = 0; i < 16; i++)
             {
-                string naam = "pictureBox" + (i + 1).ToString();
-                Control[] usercontontrols = this.Controls.Find(naam, true);
-                PictureBox pictureBox = (PictureBox)usercontontrols[0];
+                string name = "pictureBox" + (i + 1).ToString();
+                Control[] userControls = Controls.Find(name, true);
+                PictureBox pictureBox = (PictureBox)userControls[0];
 
                 pictureBox.Image = (Bitmap)rm.GetObject("A");
                 speelBord.Add(pictureBox);
@@ -48,11 +48,10 @@ namespace WindowsFormApplication1
 
             for (int i = 0; i < 16; i++)
             {
-                int figuurID = Rol(0, 16);
+                int figuurID = RandomRange(0, 16);
                 if (geradenIDBord.Exists(v => v == figuurID))
                 {
-                    int ind = figuurID % 8;
-                    logischBord.Add("pic" + ind.ToString());
+                    logischBord.Add("pic" + (figuurID % 8).ToString());
                     geradenIDBord.Remove(figuurID);
                 }
                 else
@@ -62,7 +61,7 @@ namespace WindowsFormApplication1
             }
         }
 
-        private bool Speel(int figID)
+        private bool SelectCard(int figID)
         {
             if (!geradenIDBord.Exists(v => v == figID))
             {
@@ -112,7 +111,7 @@ namespace WindowsFormApplication1
             PictureBox image = (PictureBox)sender;
             textBox1.Text = image.Name;
 
-            Speel(Convert.ToInt32(image.Tag));
+            SelectCard(Convert.ToInt32(image.Tag));
         }
 
         private void Herstart_Click(object sender, EventArgs e)
