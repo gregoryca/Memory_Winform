@@ -1,11 +1,15 @@
-﻿namespace WindowsFormApplication1
+﻿using System;
+using System.Windows.Forms;
+using System.ComponentModel;
+
+namespace WindowsFormApplication1
 {
     partial class Form1
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -28,95 +32,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.Restart = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.spelbordenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bestandenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bestandenToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.veldX2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.veldX4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.veldX6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.veldX8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.veldX12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.menuStrip1.SuspendLayout();
-            this.SuspendLayout();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            pictureBox16 = new PictureBox();
+            pictureBox15 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            pictureBox13 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            pictureBox11 = new PictureBox();
+            pictureBox10 = new PictureBox();
+            pictureBox9 = new PictureBox();
+            pictureBox8 = new PictureBox();
+            pictureBox7 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+
+            Restart = new Button();
+            textBox1 = new TextBox();
+            menuStrip1 = new MenuStrip();
+            spelbordenToolStripMenuItem = new ToolStripMenuItem();
+            bestandenToolStripMenuItem = new ToolStripMenuItem();
+            bestandenToolStripMenuItem1 = new ToolStripMenuItem();
+            veldX2ToolStripMenuItem = new ToolStripMenuItem();
+            veldX4ToolStripMenuItem = new ToolStripMenuItem();
+            veldX6ToolStripMenuItem = new ToolStripMenuItem();
+            veldX8ToolStripMenuItem = new ToolStripMenuItem();
+            veldX12ToolStripMenuItem = new ToolStripMenuItem();
+            tableLayoutPanel1.SuspendLayout();
+            ((ISupportInitialize)(pictureBox16)).BeginInit();
+            ((ISupportInitialize)(pictureBox15)).BeginInit();
+            ((ISupportInitialize)(pictureBox14)).BeginInit();
+            ((ISupportInitialize)(pictureBox13)).BeginInit();
+            ((ISupportInitialize)(pictureBox12)).BeginInit();
+            ((ISupportInitialize)(pictureBox11)).BeginInit();
+            ((ISupportInitialize)(pictureBox10)).BeginInit();
+            ((ISupportInitialize)(pictureBox9)).BeginInit();
+            ((ISupportInitialize)(pictureBox8)).BeginInit();
+            ((ISupportInitialize)(pictureBox7)).BeginInit();
+            ((ISupportInitialize)(pictureBox6)).BeginInit();
+            ((ISupportInitialize)(pictureBox1)).BeginInit();
+            ((ISupportInitialize)(pictureBox2)).BeginInit();
+            ((ISupportInitialize)(pictureBox3)).BeginInit();
+            ((ISupportInitialize)(pictureBox4)).BeginInit();
+            ((ISupportInitialize)(pictureBox5)).BeginInit();
+            menuStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 6;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox16, 4, 4);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox15, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox14, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox13, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox12, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox11, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox10, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox9, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox8, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox7, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox6, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.Restart, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox4, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox5, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 2, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 32);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1032, 574);
-            this.tableLayoutPanel1.TabIndex = 0;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            tableLayoutPanel1.ColumnCount = 6;
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.Controls.Add(this.pictureBox16, 4, 4);
+            tableLayoutPanel1.Controls.Add(this.pictureBox15, 3, 4);
+            tableLayoutPanel1.Controls.Add(this.pictureBox14, 2, 4);
+            tableLayoutPanel1.Controls.Add(this.pictureBox13, 1, 4);
+            tableLayoutPanel1.Controls.Add(this.pictureBox12, 4, 3);
+            tableLayoutPanel1.Controls.Add(this.pictureBox11, 3, 3);
+            tableLayoutPanel1.Controls.Add(this.pictureBox10, 2, 3);
+            tableLayoutPanel1.Controls.Add(this.pictureBox9, 1, 3);
+            tableLayoutPanel1.Controls.Add(this.pictureBox8, 4, 2);
+            tableLayoutPanel1.Controls.Add(this.pictureBox7, 3, 2);
+            tableLayoutPanel1.Controls.Add(this.pictureBox6, 2, 2);
+            tableLayoutPanel1.Controls.Add(this.Restart, 0, 0);
+            tableLayoutPanel1.Controls.Add(this.pictureBox1, 1, 1);
+            tableLayoutPanel1.Controls.Add(this.pictureBox2, 2, 1);
+            tableLayoutPanel1.Controls.Add(this.pictureBox3, 3, 1);
+            tableLayoutPanel1.Controls.Add(this.pictureBox4, 4, 1);
+            tableLayoutPanel1.Controls.Add(this.pictureBox5, 1, 2);
+            tableLayoutPanel1.Controls.Add(this.textBox1, 2, 0);
+            tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanel1.Location = new System.Drawing.Point(0, 32);
+            tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 6;
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            tableLayoutPanel1.Size = new System.Drawing.Size(1032, 574);
+            tableLayoutPanel1.TabIndex = 0;
+            tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // pictureBox16
             // 
@@ -435,18 +440,18 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 606);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Form1";
-            this.Text = "Memory_V1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1032, 606);
+            Controls.Add(tableLayoutPanel1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Form1";
+            Text = "Memory_V1";
+            Load += new EventHandler(Form1_Load);
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
@@ -463,43 +468,71 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+            //throw new NotImplementedException();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void veldX2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void spelbordenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void bestandenToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
+        }
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button Restart;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem spelbordenToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bestandenToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bestandenToolStripMenuItem1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ToolStripMenuItem veldX2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem veldX4ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem veldX6ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem veldX8ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem veldX12ToolStripMenuItem;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Button Restart;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox16;
+        private PictureBox pictureBox15;
+        private PictureBox pictureBox14;
+        private PictureBox pictureBox13;
+        private PictureBox pictureBox12;
+        private PictureBox pictureBox11;
+        private PictureBox pictureBox10;
+        private PictureBox pictureBox9;
+        private PictureBox pictureBox8;
+        private PictureBox pictureBox7;
+        private PictureBox pictureBox6;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem spelbordenToolStripMenuItem;
+        private ToolStripMenuItem bestandenToolStripMenuItem;
+        private ToolStripMenuItem bestandenToolStripMenuItem1;
+        private TextBox textBox1;
+        private ToolStripMenuItem veldX2ToolStripMenuItem;
+        private ToolStripMenuItem veldX4ToolStripMenuItem;
+        private ToolStripMenuItem veldX6ToolStripMenuItem;
+        private ToolStripMenuItem veldX8ToolStripMenuItem;
+        private ToolStripMenuItem veldX12ToolStripMenuItem;
     }
 }
-
