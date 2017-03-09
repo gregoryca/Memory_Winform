@@ -4,7 +4,6 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using System.Resources;
-using System.Threading;
 using WindowsFormsApplication1.Properties;
 
 namespace WindowsFormApplication1
@@ -30,7 +29,6 @@ namespace WindowsFormApplication1
         {
             Random steen = new Random();
             int randomGetal = steen.Next(begin, eind);
-            Thread.Sleep(15);
             return randomGetal;
         }
 
