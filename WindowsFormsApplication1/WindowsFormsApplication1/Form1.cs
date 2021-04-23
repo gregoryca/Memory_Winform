@@ -10,10 +10,16 @@ namespace WindowsFormApplication1
 {
     public partial class Form1 : Form
     {
+        /*
+         * Het maken van het bord
+         */
         List<PictureBox> speelBord = new List<PictureBox>(16);
         List<string> logischBord = new List<string>(16);
         List<int> geradenIDBord = new List<int>(16);
-
+        
+        /*
+            Het maken van de keuze variabeles
+        */
         int keuze1 = -1;
         int keuze2 = -1;
 
